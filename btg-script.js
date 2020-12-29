@@ -14,7 +14,7 @@ var iofTotal = 0;
 var profitTotal = 0;
 var liquidProfitTotal = 0;
 
-function openFIIs() {
+function openFIs() {
 	table.querySelector('.showDetailIcon')
 		.click();
 }
