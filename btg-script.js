@@ -123,7 +123,7 @@ function insertTotals() {
 
 function extractData() {
 	if (detailRow.classList.contains('ng-hide')) {
-		openFIIs();
+		openFIs();
 	}
 	fundsRows.forEach(async (fr, i) => {
 		fillPrimaryValues(fr, i);
